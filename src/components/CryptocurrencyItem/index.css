@@ -1,0 +1,33 @@
+.item-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.logo-name-container {
+  display: flex;
+  flex-direction: row;
+  padding: 10px;
+}
+.logo {
+  margin-top: 20px;
+  width: 10%;
+  height: 25%;
+  margin-right: 10px;
+}
+.currency-name {
+  font-size: 20px;
+  font-weight: 500;
+  font-family: 'Bree Serif';
+  color: #00e7ff;
+}
+.value-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.value {
+  font-size: 20px;
+  font-weight: 500;
+  font-family: 'Bree Serif';
+  padding-right: 10px;
+}
